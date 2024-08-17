@@ -73,3 +73,14 @@ function showMovies(movies) {
         main.appendChild(movieEl);
     });
 }
+const SEARCH_API = '<https://api.themoviedb.org/3/search/movie?api_key=3fd2be6f0c70a2a598f084ddfb75487c&query=>"';
+FormData.addEventListener('submit',(e)=>{
+    e.preventDefault();
+    const searchTerm =serch.value;
+    if(searchTerm&& searchTerm !== ''){
+        getMovies(SEARCH_API+searchTerm);
+        serch.value= '';
+    } else{
+        window.location.reload();
+    }
+});

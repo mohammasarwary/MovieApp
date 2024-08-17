@@ -110,3 +110,22 @@ main {
     color: #fff;
     margin_top: 0.25rem;
 }
+@media (max-width:768px) {
+    .movie{
+        width: 100%;
+        border-radius: 0;
+    }
+    .movie.img{
+        border-radius: 0;
+    }
+    header{
+        justify-content: center;
+    }
+    
+}
+@media(max-width:480px){
+    .search{
+        width: 100%;
+        padding: 0.5rem;
+    }
+}

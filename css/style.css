@@ -28,3 +28,35 @@ main {
     justify-content: center;
     padding: 1rem;
   }
+  .movie {
+    width: 300px;
+    margin: 1rem;
+    background-color: #373b69;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .movie img {
+    width: 100%;
+  }
+  
+  .movie-info {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .overview {
+    padding: 1rem;
+    background-color: #fff;
+    color: #000;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in;
+  }
+  
+  .movie:hover .overview {
+    transform: translateY(0);
+  }
+  

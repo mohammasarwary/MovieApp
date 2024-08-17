@@ -103,3 +103,10 @@ main {
 .movie:hover.overview{
     transform: translateY(0);
 }
+.footer{
+    background-color: #373b69;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+    margin_top: 0.25rem;
+}

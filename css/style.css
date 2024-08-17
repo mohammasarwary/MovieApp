@@ -59,4 +59,18 @@ main {
   .movie:hover .overview {
     transform: translateY(0);
   }
+  .movie-info span{
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+  .movie-info span.green {
+    color: lightgreen;
+  }
+  .movie-info span.orange {
+    color: orange;
+  }
+  .movie-info span.red{
+    color: red;
+  }
   

@@ -85,4 +85,14 @@ main {
     padding: 0;
     box-sizing: border-box;
   }
-  
+  .movie{
+    background-color: #373b69;
+    margin: 1.5rem;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px rgba(0,0,0,0.2);
+  }
+  .movie.img{
+    border-radius: 10px 10px 0 0 ;
+  }

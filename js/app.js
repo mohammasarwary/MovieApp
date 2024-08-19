@@ -75,8 +75,9 @@ function showMovies(movies) {
 }
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
-    const searchTerm =serch.value;
-    if(searchTerm&& searchTerm !== ''){
+    const searchTerm =search.value;
+    
+    if(searchTerm && searchTerm !== ''){
         getMovies(SEARCH_API+searchTerm);
         serch.value= '';
     } else{

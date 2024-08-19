@@ -94,7 +94,7 @@ main {
     box-shadow: 0 10px rgba(0,0,0,0.2);
   }
   .movie.img{
-    border-radius: 10px 10px 0 0 ;
+    border-radius: 10px 10px 0 0;
   }
   .movie:hover{
     transform: scale(1.05);
